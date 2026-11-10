@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.header {
+    align-items: center;
+    background-color: #0B1F44;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.logo img {
+    display: block;
+    max-height: 60px;
+    width: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
